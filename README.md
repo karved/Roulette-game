@@ -30,4 +30,31 @@ Used basic concepts of **OOPS** for developing the gameflow and for the GUI part
 
 ### Screenshots
 ---
+
+| ![alt text](https://github.com/karved/Roulette-game/blob/master/docs/start.png)  |![alt text](https://github.com/karved/Roulette-game/blob/master/docs/start2.png)|
+|------|---|
                 
+![alt text](https://github.com/karved/Roulette-game/blob/master/docs/page1.png)
+
+|![alt text](https://github.com/karved/Roulette-game/blob/master/docs/roul.png)|![alt text](https://github.com/karved/Roulette-game/blob/master/docs/dice.png)|
+|---|----|
+
+![alt text](https://github.com/karved/Roulette-game/blob/master/docs/table.png)
+![alt text](https://github.com/karved/Roulette-game/blob/master/docs/last.png)
+
+### Set up
+--- 
+1. Clone this repository or download zip.   
+2. Go to your lib of installed java location of your system, (eg. "C:\Program Files\Java\jre1.8.0_121\lib") and create a folder and paste all the 3  ```.java``` files into this folder.
+3. Open terminal to this folder path.  
+4. Compile all the files :    
+    ```java
+    javac Roul.java
+    javac Bet.java
+    javac -Xlint:deprecation Main.java
+    ```
+5. Run :
+    ```
+    java Main 
+    ```
+6. All set.
